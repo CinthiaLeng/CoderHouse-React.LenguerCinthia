@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.navbar{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slogan{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.navbar ul{
+  display: flex;
+  gap: 8rem;
+}
+.navbar ul li{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.navbar ul li:hover{
+  color: #f0a500;
+}
+.navbar ul li a{
+  color: white;
+  text-decoration: none;
+} 
+.navbar ul li a:hover{
+  color: #f0a500;
+}
+.navbar ul li a.active{
+  color: #f0a500;
+}
+.navbar ul li a.active:hover{
+  color: #f0a500;
+}
